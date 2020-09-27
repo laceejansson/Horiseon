@@ -27,6 +27,7 @@ Horiseon is a marketing site that meets accessibility standards
     - [Fix navbar links](#fix-navbar-links)
     - [Use section semantic element](#use-section-semantic-element)
     - [Use summary semantic element](#use-summary-semantic-element)
+    - [Add img alt attributes](#add-img-alt-attributes)
 
 
 ## User Story
@@ -235,4 +236,12 @@ switch all subsections from `<div>` to `<section>`
 
 ### Use summary semantic element
 
-When a summary of a particular topic is used, switch it's tag from `<div>` to `<summary>`
+when a summary of a particular topic is used, switch it's tag from `<div>` to `<summary>`
+
+
+### Add img alt attributes
+
+> The alt attribute provides alternative information for an image if a user for some reason cannot view it 
+
+if the tag `<img>` is missing `alt=` add it with a short alternate text for the image
+
