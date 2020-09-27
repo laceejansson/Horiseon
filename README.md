@@ -1,18 +1,60 @@
 # Horiseon
+
 Horiseon is a marketing site that meets accessibility standards
 
+    git clone git@github.com:laceejansson/Horiseon.git
+
+    https://laceejansson.github.io/Horiseon/
+
+- [Horiseon](#horiseon)
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Create New Repository @ https://github.com/new](#create-new-repository--httpsgithubcomnew)
+  - [Clone the repository](#clone-the-repository)
+  - [Copy Website Content Into New Repository](#copy-website-content-into-new-repository)
+  - [Create First Commit](#create-first-commit)
+    - [Verify your local changes are being picked up by git with git status](#verify-your-local-changes-are-being-picked-up-by-git-with-git-status)
+    - [Add files to staging with git add](#add-files-to-staging-with-git-add)
+    - [Verify staged files with git status](#verify-staged-files-with-git-status)
+    - [Commit changes](#commit-changes)
+    - [Push local changes](#push-local-changes)
+  - [Publish Website](#publish-website)
+  - [Refactor](#refactor)
+    - [Change page title](#change-page-title)
+
+
+## User Story
+
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+
+## Acceptance Criteria
+
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
 
 ## Create New Repository @ https://github.com/new
-	- name it something that describes the content of the repository
-	- give it a repository description that describes the functionality of the repository
+
+- name it something that describes the content of the repository
+- give it a repository description that describes the functionality of the repository
 
 ## Clone the repository
-	- `cd ~/Desktop`
-	- `git clone git@github.com:laceejansson/Horiseon.git`
-	- `cd Horiseon`
-	- `git status`
+- `cd ~/Desktop`
+- `git clone git@github.com:laceejansson/Horiseon.git`
+- `cd Horiseon`
+- `git status`
 
-expected output: 
+- expected output: 
 
 ```
 Lacees-MacBook-Pro:Horiseon laceejansson$ git status
@@ -110,5 +152,9 @@ click save then scroll back down to Github Pages to copy the new url.
 
     Your site is ready to be published at https://laceejansson.github.io/Horiseon/.
 
+## Refactor
 
+### Change page title
+
+    <title>website</title> -> <title>Horiseon</title>
 
