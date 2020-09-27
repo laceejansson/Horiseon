@@ -21,6 +21,9 @@ Horiseon is a marketing site that meets accessibility standards
   - [Publish Website](#publish-website)
   - [Refactor](#refactor)
     - [Change page title](#change-page-title)
+    - [Use nav tag as semantic element](#use-nav-tag-as-semantic-element)
+    - [Use footer tag as semantic element](#use-footer-tag-as-semantic-element)
+    - [Fix nav bar header tag](#fix-nav-bar-header-tag)
 
 
 ## User Story
@@ -156,5 +159,50 @@ click save then scroll back down to Github Pages to copy the new url.
 
 ### Change page title
 
-    <title>website</title> -> <title>Horiseon</title>
+from
 
+    <title>website</title>
+
+to
+
+    <title>Horiseon</title>
+
+within the page head tag
+
+
+### Use nav tag as semantic element
+
+from
+
+    <div class="header">
+
+to
+
+    <nav class="header">
+
+within the page body tag
+
+
+### Use footer tag as semantic element
+
+from
+
+    <div class="footer">
+
+to
+
+    <footer class="footer">
+
+as the last tag in the body
+
+### Fix nav bar header tag
+
+from
+
+    <h1>Hori<span class="seo">seo</span>n</h1>
+
+to
+
+    <h1>Horiseon</h1>
+
+within the nav bar
