@@ -24,6 +24,7 @@ Horiseon is a marketing site that meets accessibility standards
     - [Use nav tag as semantic element](#use-nav-tag-as-semantic-element)
     - [Use footer tag as semantic element](#use-footer-tag-as-semantic-element)
     - [Fix nav bar header tag](#fix-nav-bar-header-tag)
+    - [Fix navbar links](#fix-navbar-links)
 
 
 ## User Story
@@ -206,3 +207,22 @@ to
     <h1>Horiseon</h1>
 
 within the nav bar
+
+### Fix navbar links
+
+broken links:
+
+    <a href="#search-engine-optimization">Search Engine Optimization</a>
+
+assign the id `search-engine-optimization` to the `<div>` that holds information about search engine optimization
+
+from
+
+    <div class="search-engine-optimization">
+
+to
+
+    <div id="search-engine-optimization" class="search-engine-optimization">
+
+within the nav bar
+
