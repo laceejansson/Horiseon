@@ -25,6 +25,8 @@ Horiseon is a marketing site that meets accessibility standards
     - [Use footer tag as semantic element](#use-footer-tag-as-semantic-element)
     - [Fix nav bar header tag](#fix-nav-bar-header-tag)
     - [Fix navbar links](#fix-navbar-links)
+    - [Use section semantic element](#use-section-semantic-element)
+    - [Use summary semantic element](#use-summary-semantic-element)
 
 
 ## User Story
@@ -226,3 +228,11 @@ to
 
 within the nav bar
 
+### Use section semantic element
+
+switch all subsections from `<div>` to `<section>`
+
+
+### Use summary semantic element
+
+When a summary of a particular topic is used, switch it's tag from `<div>` to `<summary>`
